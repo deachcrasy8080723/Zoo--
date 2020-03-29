@@ -1,0 +1,41 @@
+.card {
+    display: block;
+  }
+  
+  .icon-style, .icon-style-dark {
+    background: #f1f1f1;
+    border-radius: 50% !important;
+    -webkit-box-sizing: content-box;
+            box-sizing: content-box;
+  }
+  
+  .icon-style:hover, .icon-style-dark:hover {
+    background: skyblue;
+  }
+  
+  .icon-5 {
+    width: 500px;
+    height: 500px;
+  }
+  
+  .icon-4 {
+    width: 500px;
+    height: 500px;
+  }
+  
+  @media screen and (min-width: 1024px) {
+    .carousel-inner {
+      height: 80vh;
+    }
+    .carousel-inner .carousel-caption {
+      bottom: 150px;
+    }
+  }
+  
+  @media screen and (min-width: 1200px) {
+    .carousel-inner .carousel-caption {
+      bottom: 600px;
+    }
+  }
+
+
