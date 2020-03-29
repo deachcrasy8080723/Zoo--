@@ -21,11 +21,12 @@
   .icon-4 {
     width: 500px;
     height: 500px;
+    font-family: 新細明體;
   }
   
   @media screen and (min-width: 1024px) {
     .carousel-inner {
-      height: 80vh;
+      height: 150vh;
     }
     .carousel-inner .carousel-caption {
       bottom: 150px;
@@ -38,4 +39,10 @@
     }
   }
 
-
+  p {
+    font-size: 20px;
+    font-family: 微軟正黑體;
+    width: auto;
+    height: auto;
+    text-align: center left;
+  }
